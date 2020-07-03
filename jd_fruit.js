@@ -2,7 +2,7 @@
 // 更新时间：2020-07-03
 // [task_local]
 // #jd免费水果
-// cron "1 0 7,12,18 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script/master/jd/fruit.js,tag=jd免费水果
+// cron "1 0 7,12,18 * * *" script-path=https://github.com/xvrmg19/123/raw/master/jd_fruit.js,tag=jd免费水果
 //兼容surge和Loon等软件功能 by@iepngs
 //新增和维护功能 by@lxk0301
 const $hammer = (() => {
