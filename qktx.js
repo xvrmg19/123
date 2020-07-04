@@ -1,6 +1,6 @@
 /*
 
-公众号iosrule by红鲤鱼与绿鲤鱼与驴 2020.7.2
+公众号iosrule by红鲤鱼与绿鲤鱼与驴 2020.7.3
 
 #趣看天下签到定时执行任务loon定时格式参考
 #趣看天下task Loon的格式
@@ -8,7 +8,7 @@ cron "0 21,31,50 0-22 * * ?" script-path=qktx_task.js, tag=趣看天下
 
 Qx的参考app例子,有不懂的加微信撸金币群。
 
-2020.7.4更新，重大bug更新
+2020.7.4更新，重大bug更新2
 提示:
 1.获取邀请好友界面开宝箱cookie
 2.每日任务界面的开宝箱cookie
@@ -415,11 +415,8 @@ if(log==1)console.log("开始阅读")
 {
 if(log==1)console.log("趣看天下阅读中...🌱🌱🌱🌱🌱🌱🌱🌱🌱");
 qktx_coin+=obj.data.coinCount;
-qktx_urlrck=isdefined(qktx_urlrck,sb);
-setTimeout(function(){htt_bestread4(flag,sb);},35* 1000 );
-}
-else if(data.indexOf("很久")>0||data.indexOf("锁")>0[data.indexOf("先阅读")>0]||data.indexOf("操作异常")>0)
-{if(log==1)console.log("趣看天下阅读完毕🌾🌾🌾🌾🌾🌾");
+
+
   qktx_msg("",qktx_nm+"-[阅读]"+qktx_coin+"💰");qktx_coin=0;}})}
 
 
