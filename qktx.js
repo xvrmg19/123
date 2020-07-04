@@ -30,6 +30,7 @@ http-request https:\/\/(appv8\.qukantianxia\.com|appv7\.qukantx\.com) script-pat
 
 MITM=appv8.qukantianxia.com,appv7.qukantx.com
 
+
 */
 //以上使用说明
 
