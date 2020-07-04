@@ -2,7 +2,7 @@
 // 更新时间：2020-07-03
 // [task_local]
 // #jd免费水果
-// cron "1 0 7,12,18 * * *" script-path=https://github.com/xvrmg19/123/raw/master/jd_fruit.js,tag=jd免费水果
+// cron "1 0 7,12,18 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script/master/jd/fruit.js,tag=jd免费水果
 //兼容surge和Loon等软件功能 by@iepngs
 //新增和维护功能 by@lxk0301
 const $hammer = (() => {
@@ -99,11 +99,11 @@ const cookie = $hammer.read('CookieJD')
 const name = '京东水果'
 //助力好友分享码(最多4个,否则后面的助力失败),原因:京东农场每人每天只有四次助力机会
 var shareCodes = [ // 这个列表填入你要助力的好友的shareCode
-    'd95d306a104e49ecbc6f3903071e3f09'
-    '28f25a800e694cc78ade043f37e01941',
-    '286d914f9fa2497399f2f8d1cb466e64',
-    '',
-    ''
+    'a6f686a9f6aa4c8097730b03681c553',
+    'f92cb56c6a1349f5a35f0372a041ea0',
+    'a9360baeceb04c9baaaa109fd428d3c',
+    '61ff5c624949454aa88561fcd721bf6',
+    '40dbf12bb7ea4b8eb772741fe2125da'
 ]
 // 添加box功能
 // 【用box订阅的好处】
