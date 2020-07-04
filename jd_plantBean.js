@@ -102,11 +102,11 @@ const name = '京东种豆得豆'
 const JD_API_HOST = 'https://api.m.jd.com/client.action';
 
 var plantUuids = [ // 这个列表填入你要助力的好友的plantUuid
-    'avlxbxdxf3altnm77gkqweriwik3gtnp3vhxdwy',
-    'olmijoxgmjutztzexoyxf22tw2cb5uw4ovuv4dq',
-    'qawf5ls3ucw25yhfulu32xekqy3h7wlwy7o5jii',
-    'zanmzshzq4ykx5xirwj7y7lmki',
-    'd6wg7f6syive54q4yfrdmaddo4'
+    'gno66hgf2tjymkmleorevd5caq4khf4x2niodma',
+    '4npkonnsy7xi2k62fqogk7iajgxtj4s27j2bruq',
+    'wl2ldhkjknjq5npzvtnr3qrhjq3h7wlwy7o5jii',
+    'nkeoswk4ezvd5jpd3e4caj2o443h7wlwy7o5jii',
+    ''
 ]
 let currentRoundId = null;//本期活动id
 let lastRoundId = null;//上期id
