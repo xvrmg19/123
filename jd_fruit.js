@@ -102,7 +102,7 @@ var shareCodes = [ // 这个列表填入你要助力的好友的shareCode
     '28f25a800e694cc78ade043f37e01941',
     '286d914f9fa2497399f2f8d1cb466e64',
     '313fdee988fd48829ba619c51c1d557e',
-    '',
+    'eb3b92fdc12344aab7eef9f34a873441',
     ''
 ]
 // 添加box功能
