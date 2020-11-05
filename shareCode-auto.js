@@ -6,9 +6,9 @@ const shareCodes = [
     mc: $.getdata("mc_shareCode1") || "MTAxODc2NTEzNDAwMDAwMDAyODUyMTI5NQ==",
   },
   {
-    zd: $.getdata("zd_shareCode2") || "",
-    nc: $.getdata("nc_shareCode2") || "",
-    mc: $.getdata("mc_shareCode2") || "",
+    zd: $.getdata("zd_shareCode2") || "e0bcc3a10a174c1699990ab79cb935eb",
+    nc: $.getdata("nc_shareCode2") || "p6m3pr2ioazlnkqhwbudq77rma",
+    mc: $.getdata("mc_shareCode2") || "MTAxODc2NTEzNDAwMDAwMDAyOTEwNDQ5OQ==",
   },
 ];
 $.result = [];
